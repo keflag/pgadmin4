@@ -2,7 +2,7 @@
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the  project.
 # FIRST AUTHOR <mysticboy@live.com>, 2019.
-# LATEST AUTHOR [Xue Mingke<xuemingke2009@163.com>]
+# LATEST AUTHOR [Xue Mingke <xuemingke2009@163.com>]
 #
 msgid ""
 msgstr ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: xuemingke2009@163.com\n"
 "POT-Creation-Date: 2026-05-02 11:11+0530\n"
 "PO-Revision-Date: 2026-05-14 13:02+0800\n"
-"Last-Translator: Xue Mingke<xuemingke2009@163.com>\n"
+"Last-Translator: Xue Mingke <xuemingke2009@163.com>\n"
 "Language: zh_Hans_CN\n"
 "Language-Team: @keflag on Github.\n本人是高中生，业余时间维护翻译，有问题请礼貌的发邮件到 <xuemingke2009@163.com>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
