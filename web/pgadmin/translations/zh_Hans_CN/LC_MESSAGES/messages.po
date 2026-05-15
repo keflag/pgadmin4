@@ -2,7 +2,7 @@
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the  project.
 # FIRST AUTHOR <mysticboy@live.com>, 2019.
-# LATEST AUTHOR [Xue Mingke <xuemingke2009@163.com>]
+# LATEST AUTHOR [Xue Mingke<xuemingke2009@163.com>]
 #
 msgid ""
 msgstr ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: xuemingke2009@163.com\n"
 "POT-Creation-Date: 2026-05-02 11:11+0530\n"
 "PO-Revision-Date: 2026-05-14 13:02+0800\n"
-"Last-Translator: Xue Mingke <xuemingke2009@163.com>\n"
+"Last-Translator: Xue Mingke<xuemingke2009@163.com>\n"
 "Language: zh_Hans_CN\n"
 "Language-Team: @keflag on Github.\n本人是高中生，业余时间维护翻译，有问题请礼貌的发邮件到 <xuemingke2009@163.com>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -25,25 +25,25 @@ msgstr "用户名或密码错误。"
 
 #: pgadmin/__init__.py:353
 msgid "Unauthorised access, permission denied."
-msgstr "未经授权的访问，请求已阻止！"
+msgstr ""
 
 #: pgadmin/__init__.py:682 pgadmin/__init__.py:731
 #, python-brace-format
 msgid "Auto-detected {0} installation with the data directory at {1}"
-msgstr "自动检测到 {0} 安装在数据目录 {1}"
+msgstr "自动检测到{0}安装在数据目录{1}"
 
 #: pgadmin/__init__.py:814
 msgid "403 FORBIDDEN"
-msgstr "403 已禁止"
+msgstr "403已禁止"
 
 #: pgadmin/__init__.py:950
 msgid " You need to refresh the page."
-msgstr "你需要刷新以重载该界面。"
+msgstr ""
 
 #: pgadmin/about/__init__.py:42
 #, python-format
 msgid "About %(appname)s"
-msgstr "关于 %(appname)s"
+msgstr "关于%(appname)s"
 
 #: pgadmin/about/__init__.py:70
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/pgd_replication_servers/static/js/pgd_replication_servers.js:41
@@ -86,7 +86,7 @@ msgstr "提交"
 
 #: pgadmin/about/static/js/AboutComponent.jsx:62
 msgid "Python Version"
-msgstr "Python 版本"
+msgstr ""
 
 #: pgadmin/about/static/js/AboutComponent.jsx:70
 msgid "Current User"
@@ -94,7 +94,7 @@ msgstr "当前用户"
 
 #: pgadmin/about/static/js/AboutComponent.jsx:79
 msgid "Electron Version"
-msgstr "Electron 版本"
+msgstr ""
 
 #: pgadmin/about/static/js/AboutComponent.jsx:88
 #: pgadmin/browser/__init__.py:106
@@ -116,7 +116,7 @@ msgstr "日志文件"
 
 #: pgadmin/about/static/js/AboutComponent.jsx:127
 msgid "pgAdmin Server Configuration"
-msgstr "pgAdmin 服务器配置"
+msgstr ""
 
 #: pgadmin/about/static/js/about.js:42
 #, python-format
@@ -130,12 +130,12 @@ msgstr "你的账户已被锁定，请联系管理员。"
 #: pgadmin/authenticate/__init__.py:152
 #, python-brace-format
 msgid "{0} more attempts remaining."
-msgstr "剩余 {0} 次。"
+msgstr "剩余{0}次。"
 
 #: pgadmin/authenticate/__init__.py:156
 #, python-brace-format
 msgid "{0} more attempt remaining."
-msgstr "剩余 {0} 次。"
+msgstr "剩余{0}次。"
 
 #: pgadmin/authenticate/internal.py:27
 msgid "Login failed"
@@ -143,7 +143,7 @@ msgstr "登录失败"
 
 #: pgadmin/authenticate/internal.py:28
 msgid "Email/Username not provided"
-msgstr "未提供电子邮件或用户名"
+msgstr "未提供电子邮件/用户名"
 
 #: pgadmin/authenticate/internal.py:29
 msgid "Password not provided"
@@ -151,7 +151,7 @@ msgstr "未提供密码"
 
 #: pgadmin/authenticate/internal.py:30
 msgid "Email/Username is not valid"
-msgstr "电子邮件或用户名无效"
+msgstr "电子邮件/用户名无效"
 
 #: pgadmin/authenticate/internal.py:96
 msgid "internal"
@@ -224,36 +224,36 @@ msgstr "无法找到指定用户。"
 
 #: pgadmin/authenticate/oauth2.py:67
 msgid "Login session expired. Please try again."
-msgstr "登录会话已过期，请重试！"
+msgstr ""
 
 #: pgadmin/authenticate/oauth2.py:461
 msgid "No OAuth2 provider available."
-msgstr "没有可用的 OAuth2 提供方。"
+msgstr ""
 
 #: pgadmin/authenticate/oauth2.py:492
 msgid "No profile data found from OIDC provider."
-msgstr "无法从 OIDC 提供者找到个人资料数据。"
+msgstr ""
 
 #: pgadmin/authenticate/oauth2.py:498
 msgid "No profile data found."
-msgstr "无法从 OIDC 提供者找到个人资料数据。"
+msgstr ""
 
 #: pgadmin/authenticate/oauth2.py:508
 msgid ""
 "Could not extract username from OIDC claims. Please ensure your OIDC "
 "provider returns standard claims (email, preferred_username, or sub)."
-msgstr "无法从 OIDC 声明中提取用户名。请确保您的 OIDC 提供者返回标准声明 (邮箱、preferred_username 或 sub)"
+msgstr ""
 
 #: pgadmin/authenticate/oauth2.py:514
 msgid ""
 "An email id or OAUTH2_USERNAME_CLAIM is required to login into pgAdmin. "
 "Please update your OAuth2 profile for email id or set "
 "OAUTH2_USERNAME_CLAIM config parameter."
-msgstr "登录 pgAdmin 需要电子邮件地址或 OAUTH2_USERNAME_CLAIM。请更新您的 OAuth2 个人资料中的电子邮件地址，或设置 OAUTH2_USERNAME_CLAIM 配置参数。"
+msgstr ""
 
 #: pgadmin/authenticate/oauth2.py:692
 msgid "No OAuth2 provider selected."
-msgstr "未选择 OAuth2 提供方。"
+msgstr ""
 
 #: pgadmin/authenticate/oauth2.py:697
 msgid "Please set the configuration parameters properly."
@@ -261,27 +261,27 @@ msgstr "请正确设置配置参数。"
 
 #: pgadmin/authenticate/oauth2.py:720
 msgid "No Email/Username found. Please contact your administrator."
-msgstr "未找到电子邮件或用户名，请联系您的管理员。"
+msgstr ""
 
 #: pgadmin/authenticate/oauth2.py:725
 msgid "Additional claim config is None, no check to do."
-msgstr "附加声明配置为空，所以无需检查。"
+msgstr ""
 
 #: pgadmin/authenticate/oauth2.py:729
 msgid "Additional claim check config is not a dict."
-msgstr "附加声明检查配置不是字典类型。"
+msgstr ""
 
 #: pgadmin/authenticate/oauth2.py:732
 msgid "Additional claim check config dict is empty."
-msgstr "附加声明检查配置字典为空。"
+msgstr ""
 
 #: pgadmin/authenticate/oauth2.py:744
 msgid "Claim match found. Authorized access."
-msgstr "找到匹配的声明，已授权访问。"
+msgstr ""
 
 #: pgadmin/authenticate/oauth2.py:746
 msgid "No match was found."
-msgstr "未找到匹配项。"
+msgstr ""
 
 #: pgadmin/authenticate/webserver.py:74
 msgid "webserver"
