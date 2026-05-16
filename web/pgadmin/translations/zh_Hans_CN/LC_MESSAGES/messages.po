@@ -1,4 +1,4 @@
-# Chinese (Simplified, China) translations for .
+# Chinese (Simplified, China) translations for pgAdmin 4.
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the  project.
 # FIRST AUTHOR <mysticboy@live.com>, 2019.
@@ -25,25 +25,25 @@ msgstr "用户名或密码错误。"
 
 #: pgadmin/__init__.py:353
 msgid "Unauthorised access, permission denied."
-msgstr ""
+msgstr "未经授权的访问，请求已被阻止！"
 
 #: pgadmin/__init__.py:682 pgadmin/__init__.py:731
 #, python-brace-format
 msgid "Auto-detected {0} installation with the data directory at {1}"
-msgstr "自动检测到{0}安装在数据目录{1}"
+msgstr "自动检测到 {0} 安装在数据目录 {1} "
 
 #: pgadmin/__init__.py:814
 msgid "403 FORBIDDEN"
-msgstr "403已禁止"
+msgstr "403 请求已阻止"
 
 #: pgadmin/__init__.py:950
 msgid " You need to refresh the page."
-msgstr ""
+msgstr "你需要去刷新这个页面。"
 
 #: pgadmin/about/__init__.py:42
 #, python-format
 msgid "About %(appname)s"
-msgstr "关于%(appname)s"
+msgstr "关于 %(appname)s"
 
 #: pgadmin/about/__init__.py:70
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/pgd_replication_servers/static/js/pgd_replication_servers.js:41
@@ -86,7 +86,7 @@ msgstr "提交"
 
 #: pgadmin/about/static/js/AboutComponent.jsx:62
 msgid "Python Version"
-msgstr ""
+msgstr "Python 版本"
 
 #: pgadmin/about/static/js/AboutComponent.jsx:70
 msgid "Current User"
@@ -94,7 +94,7 @@ msgstr "当前用户"
 
 #: pgadmin/about/static/js/AboutComponent.jsx:79
 msgid "Electron Version"
-msgstr ""
+msgstr "Electron 版本"
 
 #: pgadmin/about/static/js/AboutComponent.jsx:88
 #: pgadmin/browser/__init__.py:106
@@ -116,7 +116,7 @@ msgstr "日志文件"
 
 #: pgadmin/about/static/js/AboutComponent.jsx:127
 msgid "pgAdmin Server Configuration"
-msgstr ""
+msgstr "pgAdmin 服务器配置"
 
 #: pgadmin/about/static/js/about.js:42
 #, python-format
@@ -130,12 +130,12 @@ msgstr "你的账户已被锁定，请联系管理员。"
 #: pgadmin/authenticate/__init__.py:152
 #, python-brace-format
 msgid "{0} more attempts remaining."
-msgstr "剩余{0}次。"
+msgstr "剩余尝试次数：{0} 次。"
 
 #: pgadmin/authenticate/__init__.py:156
 #, python-brace-format
 msgid "{0} more attempt remaining."
-msgstr "剩余{0}次。"
+msgstr "剩余尝试次数：{0} 次。"
 
 #: pgadmin/authenticate/internal.py:27
 msgid "Login failed"
@@ -143,15 +143,15 @@ msgstr "登录失败"
 
 #: pgadmin/authenticate/internal.py:28
 msgid "Email/Username not provided"
-msgstr "未提供电子邮件/用户名"
+msgstr "请输入电子邮件或用户名"
 
 #: pgadmin/authenticate/internal.py:29
 msgid "Password not provided"
-msgstr "未提供密码"
+msgstr "请输入密码"
 
 #: pgadmin/authenticate/internal.py:30
 msgid "Email/Username is not valid"
-msgstr "电子邮件/用户名无效"
+msgstr "电子邮件或用户名无效"
 
 #: pgadmin/authenticate/internal.py:96
 msgid "internal"
@@ -163,7 +163,7 @@ msgstr "kerberos"
 
 #: pgadmin/authenticate/kerberos.py:170
 msgid "Kerberos authentication can't be used as GSSAPI module couldn't be loaded."
-msgstr "GSSAPI模块未加载无法使用Kerberos认证."
+msgstr "GSSAPI模块未加载无法使用Kerberos认证。"
 
 #: pgadmin/authenticate/kerberos.py:210
 msgid "Kerberos authentication failed. Couldn't find kerberos ticket."
@@ -176,12 +176,12 @@ msgstr "未提供委派凭据。"
 #: pgadmin/authenticate/ldap.py:32
 #, python-brace-format
 msgid "Error searching the LDAP directory: {}"
-msgstr "搜索LDAP目录失败:{}"
+msgstr "无法搜索LDAP目录：{}"
 
 #: pgadmin/authenticate/ldap.py:35
 #, python-brace-format
 msgid "Error connecting to the LDAP server: {}\n"
-msgstr "连接LDAP服务器失败：{}\n"
+msgstr "无法连接LDAP服务器：{}\n"
 
 #: pgadmin/authenticate/ldap.py:49
 msgid "ldap"
@@ -189,17 +189,17 @@ msgstr "ldap"
 
 #: pgadmin/authenticate/ldap.py:67
 msgid "LDAP configuration error: Set the bind password."
-msgstr "LDAP配置错误：设置绑定密码."
+msgstr "LDAP配置错误，请设置绑定密码。"
 
 #: pgadmin/authenticate/ldap.py:149
 #, python-brace-format
 msgid "Error binding to the LDAP server: {}\n"
-msgstr "绑定LDAP服务器失败：{}\n"
+msgstr "无法绑定到LDAP服务器：{}\n"
 
 #: pgadmin/authenticate/ldap.py:154
 #, python-brace-format
 msgid "Error starting TLS: {}\n"
-msgstr "启动TLS失败：{}\n"
+msgstr "无法启动TLS：{}\n"
 
 #: pgadmin/authenticate/ldap.py:229
 #, python-brace-format
@@ -208,11 +208,11 @@ msgstr "LDAP配置错误：{}\n"
 
 #: pgadmin/authenticate/ldap.py:245
 msgid "LDAP configuration error: Set the proper LDAP URI."
-msgstr "LDAP配置错误：设置LDAP URI."
+msgstr "LDAP配置错误，请设置正确的 LDAP 统一资源标识符（URI）。"
 
 #: pgadmin/authenticate/ldap.py:275
 msgid "LDAP configuration error: Set the Search Domain."
-msgstr "LDAP配置错误：设置搜索域."
+msgstr "LDAP配置错误，请设置搜索域。"
 
 #: pgadmin/authenticate/ldap.py:313
 msgid "More than one result found."
@@ -220,29 +220,33 @@ msgstr "找到多个结果。"
 
 #: pgadmin/authenticate/ldap.py:316
 msgid "Could not find the specified user."
-msgstr "无法找到指定用户。"
+msgstr "无法找到指定的用户。"
 
 #: pgadmin/authenticate/oauth2.py:67
 msgid "Login session expired. Please try again."
-msgstr ""
+msgstr "登录会话已过期，请重试。"
 
 #: pgadmin/authenticate/oauth2.py:461
 msgid "No OAuth2 provider available."
-msgstr ""
+msgstr "没有可用的 OAuth2 身份提供商。"
 
 #: pgadmin/authenticate/oauth2.py:492
 msgid "No profile data found from OIDC provider."
-msgstr ""
+msgstr "无法从 OIDC 身份提供商获取到个人资料。"
 
 #: pgadmin/authenticate/oauth2.py:498
 msgid "No profile data found."
-msgstr ""
+msgstr "无法找到个人资料。"
 
+# ques: 这里非常麻烦，preferred_username是用户希望被称呼的名字
+# 暂时在这里翻译成「用户昵称」
 #: pgadmin/authenticate/oauth2.py:508
 msgid ""
 "Could not extract username from OIDC claims. Please ensure your OIDC "
 "provider returns standard claims (email, preferred_username, or sub)."
 msgstr ""
+"无法从 OIDC 声明中提取用户名。"
+"请确保 OIDC 身份提供商返回标准声明字段（邮箱、用户昵称或用户唯一标识）"
 
 #: pgadmin/authenticate/oauth2.py:514
 msgid ""
@@ -250,42 +254,44 @@ msgid ""
 "Please update your OAuth2 profile for email id or set "
 "OAUTH2_USERNAME_CLAIM config parameter."
 msgstr ""
+"登录 pgAdmin 必须提供邮箱地址或配置 OAUTH2_USERNAME_CLAIM 参数。"
+"请在 OAuth2 用户资料中补充邮箱，或设置正确的 OAUTH2_USERNAME_CLAIM 参数配置项。"
 
 #: pgadmin/authenticate/oauth2.py:692
 msgid "No OAuth2 provider selected."
-msgstr ""
+msgstr "未选择 OAuth2 身份提供商。"
 
 #: pgadmin/authenticate/oauth2.py:697
 msgid "Please set the configuration parameters properly."
-msgstr "请正确设置配置参数。"
+msgstr "请设置正确的配置参数。"
 
 #: pgadmin/authenticate/oauth2.py:720
 msgid "No Email/Username found. Please contact your administrator."
-msgstr ""
+msgstr "未找到匹配的邮箱或用户名，请联系管理员。"
 
 #: pgadmin/authenticate/oauth2.py:725
 msgid "Additional claim config is None, no check to do."
-msgstr ""
+msgstr "额外声明配置为空，因此无需进行校验。"
 
 #: pgadmin/authenticate/oauth2.py:729
 msgid "Additional claim check config is not a dict."
-msgstr ""
+msgstr "额外声明校验配置不是字典格式（Python中的dict）。"
 
 #: pgadmin/authenticate/oauth2.py:732
 msgid "Additional claim check config dict is empty."
-msgstr ""
+msgstr "额外声明校验配置字典为空。"
 
 #: pgadmin/authenticate/oauth2.py:744
 msgid "Claim match found. Authorized access."
-msgstr ""
+msgstr "匹配到相应的声明，已授权访问。"
 
 #: pgadmin/authenticate/oauth2.py:746
 msgid "No match was found."
-msgstr ""
+msgstr "未匹配到相关声明。"
 
 #: pgadmin/authenticate/webserver.py:74
 msgid "webserver"
-msgstr "web服务器"
+msgstr "Web 服务器"
 
 #: pgadmin/authenticate/webserver.py:91
 msgid "Webserver authenticate failed."
@@ -294,39 +300,39 @@ msgstr "Web 服务器身份验证失败。"
 #: pgadmin/authenticate/mfa/__init__.py:76
 #, python-brace-format
 msgid "'{}' is not a valid multi-factor authentication method"
-msgstr "'{}' 不是一个有效两步认证方式"
+msgstr "'{}' 不是一个有效多因素身份认证方式"
 
 #: pgadmin/authenticate/mfa/__init__.py:105
 msgid "No valid multi-factor authentication found, hence - disabling it."
-msgstr "未找到有效的多因素身份验证，因此 - 禁用它。"
+msgstr "在初始化过程中未找到有效的多因素身份认证，因此已经禁用这个认证方式。"
 
 #: pgadmin/authenticate/mfa/authenticator.py:31
 msgid "Authenticator App"
-msgstr "认证APP"
+msgstr "认证 App"
 
 #: pgadmin/authenticate/mfa/authenticator.py:32
 msgid "Enter code"
-msgstr "输入编码"
+msgstr "输入代码"
 
 #: pgadmin/authenticate/mfa/authenticator.py:62
 msgid ""
 "User has not registered the Time-based One-Time Password (TOTP) "
 "Authenticator for authentication."
-msgstr "用户尚未注册基于时间的一次性密码 （TOTP） 身份验证器进行身份验证。"
+msgstr "用户尚未注册基于时间的一次性密码（TOTP）验证器进行身份验证。"
 
 #: pgadmin/authenticate/mfa/authenticator.py:68
 msgid "User does not have valid HASH to generate the OTP."
-msgstr "用户没有有效的哈希来生成 OTP。"
+msgstr "用户没有提供有效的哈希值来生成 OTP。"
 
 #: pgadmin/authenticate/mfa/authenticator.py:126
 msgid ""
 "Enter the code shown in your authenticator application for TOTP (Time-"
 "based One-Time Password)"
-msgstr "输入你TOTP认证应用中显示的认证码"
+msgstr "请输入验证器应用内显示的 TOTP 动态验证码（基于时间的一次性密码）"
 
 #: pgadmin/authenticate/mfa/authenticator.py:164
 msgid "TOTP Authenticator QRCode"
-msgstr "TOTP认证二维码"
+msgstr "TOTP 认证二维码"
 
 #: pgadmin/authenticate/mfa/authenticator.py:166
 msgid ""
@@ -340,11 +346,11 @@ msgstr "验证认证码失败"
 
 #: pgadmin/authenticate/mfa/authenticator.py:200
 msgid "TOTP Authenticator registered successfully for authentication."
-msgstr "TOTP 身份验证器已成功注册进行身份验证。"
+msgstr "TOTP 身份验证器已成功注册以进行身份验证。"
 
 #: pgadmin/authenticate/mfa/email.py:67 pgadmin/authenticate/mfa/email.py:171
 msgid "Not accessible"
-msgstr "不可访问"
+msgstr "无法访问"
 
 #: pgadmin/authenticate/mfa/email.py:73
 msgid "No email address is available."
@@ -353,16 +359,16 @@ msgstr "没有可用的电子邮件地址。"
 #: pgadmin/authenticate/mfa/email.py:80
 #, python-brace-format
 msgid "{} - Verification Code"
-msgstr "验证码-{}"
+msgstr "验证码 - {}"
 
 #: pgadmin/authenticate/mfa/email.py:91
 msgid "Failed to send the code to email."
-msgstr "发送验证码到邮箱失败。"
+msgstr "无法发送验证码到邮箱。"
 
 #: pgadmin/authenticate/mfa/email.py:95
 #, python-brace-format
 msgid "A verification code was sent to {}. Check your email and enter the code."
-msgstr "验证码已发送到 {}。检查您的电子邮件并输入代码。"
+msgstr "验证码已发送到 {}。请检查您的收件箱并输入代码。"
 
 #: pgadmin/authenticate/mfa/email.py:150
 msgid "User has not registered for email authentication"
@@ -382,11 +388,11 @@ msgstr "发送验证码"
 
 #: pgadmin/authenticate/mfa/email.py:208
 msgid "Sending Code..."
-msgstr "正在发送代码..."
+msgstr "正在发送代码……"
 
 #: pgadmin/authenticate/mfa/email.py:216
 msgid "Enter the email address to send a code"
-msgstr "输入邮件地址接收验证码"
+msgstr "输入邮件地址以接收验证码"
 
 #: pgadmin/authenticate/mfa/email.py:217
 msgid "Email address"
@@ -404,15 +410,17 @@ msgstr "注意"
 msgid ""
 "This email address will only be used for two factor authentication "
 "purposes. The email address for the user account will not be changed."
-msgstr "这个电子邮件地址将只用于双因素认证目的。用户账户的电子邮件地址将不会被改变。"
+msgstr ""
+"这个电子邮件地址将只用于双因素认证目的。"
+"用户账户的电子邮件地址将不会被改变。"
 
 #: pgadmin/authenticate/mfa/email.py:242
 msgid "Enter code here"
-msgstr "这里输入验证码"
+msgstr "在此处输入验证码"
 
 #: pgadmin/authenticate/mfa/email.py:260
 msgid "Email Authentication registered successfully."
-msgstr "邮箱验证已成功注册。"
+msgstr "成功注册验证邮箱。"
 
 #: pgadmin/authenticate/mfa/email.py:267
 msgid "Invalid code"
@@ -429,17 +437,17 @@ msgstr "提供的认证方式不支持基于用户认证"
 #: pgadmin/authenticate/mfa/views.py:175
 #, python-brace-format
 msgid "'{}' is already registered."
-msgstr ""
+msgstr "“{}” 已经注册。"
 
 #: pgadmin/authenticate/mfa/views.py:183
 #, python-brace-format
 msgid "'{}' unregistered from the authentication list."
-msgstr "'{}' 已从认证列表中注销."
+msgstr "“{}” 已从认证列表中注销."
 
 #: pgadmin/authenticate/mfa/views.py:189
 #, python-brace-format
 msgid "'{}' is not found in the authentication list."
-msgstr "在认证列表中没有发现'{}'。"
+msgstr "在认证列表中没有发现 “{}”。"
 
 #: pgadmin/authenticate/mfa/views.py:265
 msgid "Please close the dialog."
@@ -447,7 +455,7 @@ msgstr "请关闭对话框。"
 
 #: pgadmin/authenticate/mfa/views.py:314
 msgid "Session expired. Please refresh the page."
-msgstr ""
+msgstr "会话过期，请重新加载页面。"
 
 #: pgadmin/authenticate/mfa/views.py:348
 msgid "Can't access this page, when multi factor authentication is disabled."
