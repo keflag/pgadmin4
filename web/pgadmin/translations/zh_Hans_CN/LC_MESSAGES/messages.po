@@ -700,15 +700,15 @@ msgstr "对象浏览器"
 
 #: pgadmin/browser/register_browser_preferences.py:157
 msgid "Tabbed panel backward"
-msgstr "选项卡式面板向后"
+msgstr "切换至上一标签页"
 
 #: pgadmin/browser/register_browser_preferences.py:172
 msgid "Close tab panel"
-msgstr "关闭标签面板"
+msgstr "关闭标签页"
 
 #: pgadmin/browser/register_browser_preferences.py:187
 msgid "Tabbed panel forward"
-msgstr "切换至下一面板标签"
+msgstr "切换至下一标签页"
 
 #: pgadmin/browser/register_browser_preferences.py:203
 msgid "File main menu"
@@ -749,7 +749,7 @@ msgstr "编辑对象属性"
 
 #: pgadmin/browser/register_browser_preferences.py:338
 msgid "Drop object"
-msgstr ""
+msgstr "删除对象"
 
 #: pgadmin/browser/register_browser_preferences.py:353
 msgid "Direct debugging"
@@ -757,11 +757,11 @@ msgstr "直接调试"
 
 #: pgadmin/browser/register_browser_preferences.py:368
 msgid "Refresh object explorer"
-msgstr "刷新对象"
+msgstr "刷新对象浏览器"
 
 #: pgadmin/browser/register_browser_preferences.py:383
 msgid "Add grid row"
-msgstr "添加新行"
+msgstr "添加新的表格行"
 
 #: pgadmin/browser/register_browser_preferences.py:397
 #: pgadmin/help/__init__.py:27 pgadmin/static/js/Dialogs/index.jsx:387
@@ -778,6 +778,8 @@ msgid ""
 "If set to True, the tabs will take full size as per the title. This will "
 "also apply to already opened tabs."
 msgstr ""
+"启用后，标签页将根据标题自适应铺满尺寸，"
+"已打开的标签页同样生效。"
 
 #: pgadmin/browser/register_browser_preferences.py:419
 msgid "Query tool tab title"
@@ -790,10 +792,12 @@ msgid ""
 "can provide any string with or without placeholders of their choice. A "
 "blank title will revert to the default."
 msgstr ""
+msgstr "支持占位符：%DATABASE%  %USERNAME%  和  %SERVER%。"
+"可自定义任意含或不含占位符的标题，留空则恢复默认标题。"
 
 #: pgadmin/browser/register_browser_preferences.py:431
 msgid "View/Edit data tab title"
-msgstr "查看/编辑数据选项卡标题"
+msgstr "查看或编辑数据选项卡标题"
 
 #: pgadmin/browser/register_browser_preferences.py:435
 msgid ""
@@ -801,6 +805,8 @@ msgid ""
 " %SERVER%. Users can provide any string with or without placeholders of "
 "their choice. A blank title will revert to the default."
 msgstr ""
+"支持占位符：%SCHEMA%  %TABLE%  %DATABASE%  %USERNAME%  和  %SERVER%。"
+"可自定义任意含或不含占位符的文本，留空将恢复默认标题。"
 
 #: pgadmin/browser/register_browser_preferences.py:444
 msgid "Debugger tab title"
@@ -813,6 +819,8 @@ msgid ""
 "Users can provide any string with or without placeholders of their "
 "choice. A blank title will revert to the default."
 msgstr ""
+"支持占位符：%SCHEMA%  %TABLE%  %DATABASE%  %USERNAME%  和  %SERVER%。"
+"可自定义任意含或不含占位符的文本，留空将恢复默认标题。"
 
 #: pgadmin/browser/register_browser_preferences.py:456
 #: pgadmin/browser/static/js/collection.js:57
@@ -845,7 +853,7 @@ msgstr "架构差异"
 #: pgadmin/tools/erd/static/js/ERDModule.js:58
 #: pgadmin/tools/user_management/PgAdminPermissions.py:112
 msgid "ERD Tool"
-msgstr "ERD工具"
+msgstr "ERD 工具"
 
 #: pgadmin/browser/register_browser_preferences.py:464
 #: pgadmin/browser/static/js/collection.js:76
@@ -853,7 +861,7 @@ msgstr "ERD工具"
 #: pgadmin/tools/psql/static/js/PsqlModule.js:91
 #: pgadmin/tools/user_management/PgAdminPermissions.py:67
 msgid "PSQL Tool"
-msgstr "PSQL工具"
+msgstr "PSQL 工具"
 
 #: pgadmin/browser/register_browser_preferences.py:468
 msgid "Open in new browser tab"
@@ -864,32 +872,35 @@ msgid ""
 "Select Query Tool, Debugger, Schema Diff, ERD Tool, or PSQL Tool from the"
 " drop-down to open that module in a new browser tab."
 msgstr ""
+"从下拉菜单选择查询工具、调试器、模式对比、实体关系图工具或 PSQL 工具，"
+"即可在新标签页打开对应功能模块。"
 
 #: pgadmin/browser/register_browser_preferences.py:481
 msgid "Select open new tab..."
-msgstr "选择打开新选项卡..."
+msgstr "选择打开新选项卡……"
 
 #: pgadmin/browser/register_browser_preferences.py:489
 msgid "PSQL tool tab title"
-msgstr "PSQL工具选项卡标题"
+msgstr "PSQL 工具选项卡标题"
 
 #: pgadmin/browser/register_browser_preferences.py:502
 msgid "Enable object breadcrumbs?"
-msgstr "启用对象面包屑？"
+msgstr "启用对象导航路径？"
 
 #: pgadmin/browser/register_browser_preferences.py:506
 msgid ""
 "Enable breadcrumbs to show the complete path of an object in the object "
 "explorer. The breadcrumbs are displayed on object mouse hover."
-msgstr "启用面包屑，在对象资源管理器中显示一个对象的完整路径。面包屑会在对象的鼠标悬停处显示。"
+msgstr "启用对象导航路径，在对象资源管理器中显示一个对象的完整路径。"
+"对象导航路径会在对象的鼠标悬停处显示。"
 
 #: pgadmin/browser/register_browser_preferences.py:514
 msgid "Show comment with object breadcrumbs?"
-msgstr "显示带有注释的对象面包屑？"
+msgstr "显示带有注释的对象导航路径？"
 
 #: pgadmin/browser/register_browser_preferences.py:518
 msgid "Show object comment along with breadcrumbs."
-msgstr "与面包屑一起显示对象注释。"
+msgstr "与对象导航路径一起显示其注释。"
 
 #: pgadmin/browser/register_editor_preferences.py:16
 msgid "Upper case"
@@ -901,7 +912,7 @@ msgstr "转为小写"
 
 #: pgadmin/browser/register_editor_preferences.py:18
 msgid "Preserve"
-msgstr ""
+msgstr "保留"
 
 #: pgadmin/browser/register_editor_preferences.py:27
 #: pgadmin/utils/constants.py:26
@@ -921,11 +932,11 @@ msgstr "替换"
 
 #: pgadmin/browser/register_editor_preferences.py:71
 msgid "Go to line/column"
-msgstr ""
+msgstr "跳转到行或列"
 
 #: pgadmin/browser/register_editor_preferences.py:90
 msgid "Toggle comment"
-msgstr ""
+msgstr "切换注释"
 
 #: pgadmin/browser/register_editor_preferences.py:109
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:631
@@ -941,7 +952,8 @@ msgid ""
 "When set to True, keywords won't be highlighted and code folding will be "
 "disabled. Plain text mode will improve editor performance with large "
 "files."
-msgstr "设置为 True 时，不会突出显示关键字，并且将禁用代码折叠。纯文本模式将提高大型文件的编辑器性能。"
+msgstr "设置为 True 时，不会突出显示关键字，并且将禁用代码折叠。"
+"纯文本模式将提高大型文件的编辑器性能。"
 
 #: pgadmin/browser/register_editor_preferences.py:138
 msgid "Code folding?"
@@ -952,11 +964,14 @@ msgid ""
 "Enable or disable code folding. In plain text mode, this will have no "
 "effect as code folding is always disabled in that mode. Disabling will "
 "improve editor performance with large files."
-msgstr "启用或禁用代码折叠。在纯文本模式下，这不起作用，因为代码折叠始终在该模式下禁用。禁用将提高大型文件的编辑器性能。"
+msgstr ""
+"启用或禁用代码折叠。"
+"在纯文本模式下，这不起作用，因为代码折叠始终在该模式下禁用。"
+"禁用将提高大型文件的编辑器性能。"
 
 #: pgadmin/browser/register_editor_preferences.py:149
 msgid "Cursor blink rate"
-msgstr ""
+msgstr "光标闪烁频率"
 
 #: pgadmin/browser/register_editor_preferences.py:151
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:203
@@ -966,19 +981,19 @@ msgstr "无"
 
 #: pgadmin/browser/register_editor_preferences.py:152
 msgid "Slow"
-msgstr ""
+msgstr "慢的"
 
 #: pgadmin/browser/register_editor_preferences.py:153
 msgid "Medium"
-msgstr ""
+msgstr "中等的"
 
 #: pgadmin/browser/register_editor_preferences.py:154
 msgid "Fast"
-msgstr ""
+msgstr "快的"
 
 #: pgadmin/browser/register_editor_preferences.py:160
 msgid "Adjust the speed at which the text cursor blinks within the editors."
-msgstr ""
+msgstr "调整编辑器内文本光标的闪烁速度"
 
 #: pgadmin/browser/register_editor_preferences.py:167
 msgid "Line wrapping?"
@@ -986,31 +1001,31 @@ msgstr "自动换行？"
 
 #: pgadmin/browser/register_editor_preferences.py:170
 msgid "Specifies whether or not to wrap SQL code in the editor."
-msgstr "指定编辑器中SQL代码是否换行。"
+msgstr "指定编辑器中的 SQL 代码是否换行。"
 
 #: pgadmin/browser/register_editor_preferences.py:176
 msgid "Insert bracket pairs?"
-msgstr "插入配对的括号？"
+msgstr "插入成对的括号？"
 
 #: pgadmin/browser/register_editor_preferences.py:179
 msgid "Specifies whether or not to insert paired brackets in the editor."
-msgstr "指定是否在编辑器中插入配对括号。"
+msgstr "指定编辑器中是否自动插入成对的括号。"
 
 #: pgadmin/browser/register_editor_preferences.py:186
 msgid "Highlight selection matches?"
-msgstr ""
+msgstr "高亮匹配选中内容？"
 
 #: pgadmin/browser/register_editor_preferences.py:189
 msgid "Specifies whether or not to highlight matched selected text in the editor."
-msgstr ""
+msgstr "设置是否在编辑器中高亮显示选中文本的匹配项。"
 
 #: pgadmin/browser/register_editor_preferences.py:196
 msgid "Brace matching?"
-msgstr "大括号匹配？"
+msgstr "括号匹配？"
 
 #: pgadmin/browser/register_editor_preferences.py:199
 msgid "Specifies whether or not to highlight matched braces in the editor."
-msgstr "指定是否在编辑器中突出显示匹配的大括号。"
+msgstr "指定是否在编辑器中突出显示匹配的括号。"
 
 #: pgadmin/browser/register_editor_preferences.py:206
 msgid "Font size"
@@ -1024,13 +1039,12 @@ msgid ""
 " 1.2, or to reduce by 20 percent, use a value of 0.8. Minimum 0.1, "
 "maximum 10."
 msgstr ""
-"要用于 SQL 文本框和编辑器的字体大小。指定的值为 \"em\" 单位, "
-"其中1是默认的相对字体大小。例如:若要将字体大小增加百分之二十请使用1.2 的值或将减少百分之二十, 请使用0.8 的值。最小 0.1, "
-"最大10。"
+"设置 SQL 文本框及编辑器中的字体大小，单位为em，1 表示默认标准字号。"
+"例：调大 20% 填 1.2，缩小 20% 填 0.8，取值范围为 [0.1, 10]。"
 
 #: pgadmin/browser/register_editor_preferences.py:221
 msgid "Font ligatures?"
-msgstr ""
+msgstr "启用字体连写？"
 
 #: pgadmin/browser/register_editor_preferences.py:224
 msgid ""
