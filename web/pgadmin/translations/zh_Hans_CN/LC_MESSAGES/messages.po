@@ -1,8 +1,8 @@
 # Chinese (Simplified, China) translations for pgAdmin 4.
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the  project.
-# FIRST AUTHOR <mysticboy@live.com>, 2019.
-# LATEST AUTHOR [Xue Mingke <xuemingke2009@163.com>]
+# FIRST AUTHOR <mysticboy@live.com>, 2019 - 2026.4
+# LATEST AUTHOR [Xue Mingke <xuemingke2009@163.com>] 2026.5
 #
 msgid ""
 msgstr ""
@@ -510,6 +510,8 @@ msgid ""
 "utility specified {0}. Please check that the hook utility is configured "
 "correctly."
 msgstr ""
+"无法从指定的 MASTER_PASSWORD_HOOK 工具获取主密码。"
+"请检查钩子工具的配置是否正确。"
 
 #: pgadmin/browser/__init__.py:813
 msgid "Incorrect master password"
@@ -521,36 +523,38 @@ msgstr "主密码不能为空"
 
 #: pgadmin/browser/__init__.py:940
 msgid "Invalid input."
-msgstr ""
+msgstr "无效的输入，请检查！"
 
 #: pgadmin/browser/__init__.py:944
 msgid "pgAdmin user password changed successfully"
-msgstr "pgAdmin用户密码已成功更改"
+msgstr "pgAdmin 用户密码已成功更改"
 
 #: pgadmin/browser/__init__.py:991
 #, python-brace-format
 msgid ""
 "Your account is authenticated using an external {} source. Please contact"
 " the administrators of this service if you need to reset your password."
-msgstr "您的帐户使用外部  {} 源进行身份验证。如果您需要重置密码，请与此服务的管理员联系。"
+msgstr "您的帐户使用外部 {} 源进行身份验证。"
+"如果您需要重置密码，请与此服务的管理员联系。"
 
 #: pgadmin/browser/__init__.py:1035
 msgid "Password reset failed."
-msgstr ""
+msgstr "密码重置失败。"
 
 #: pgadmin/browser/__init__.py:1038
 msgid "Password reset instructions sent."
-msgstr ""
+msgstr "密码重置指引已经发送。"
 
 #: pgadmin/browser/__init__.py:1111
 msgid ""
 "You successfully reset your password but your account is locked. Please "
 "contact the Administrator."
-msgstr "密码已重置但账户被锁定，请联系管理员。"
+msgstr "密码已重置但账户被锁定！"
+"请联系管理员进行处理。"
 
 #: pgadmin/browser/register_browser_preferences.py:22
 msgid "Show system objects?"
-msgstr "是否显示系统对象？"
+msgstr "显示系统对象？"
 
 #: pgadmin/browser/register_browser_preferences.py:28
 msgid "Show empty object collections?"
@@ -564,13 +568,14 @@ msgstr "如果关闭，则所有空的对象集合将从浏览器树中隐藏。
 
 #: pgadmin/browser/register_browser_preferences.py:38
 msgid "Show column data type?"
-msgstr ""
+msgstr "显示列数据类型？"
 
 #: pgadmin/browser/register_browser_preferences.py:41
 msgid ""
 "If turned off, then the data types of the columns will not be displayed "
 "alongside their column names."
-msgstr ""
+msgstr "如果选择关闭该选项，"
+"那么列名旁将不再显示对应列的数据类型。"
 
 #: pgadmin/browser/register_browser_preferences.py:48
 msgid "Show template databases?"
@@ -587,17 +592,17 @@ msgstr "显示"
 
 #: pgadmin/browser/register_browser_preferences.py:58
 msgid "If set to True, all shared servers will be hidden from the browser tree."
-msgstr ""
+msgstr "如果设为开启（True）时，在浏览器树形列表中将隐藏所有共享服务器。"
 
 #: pgadmin/browser/register_browser_preferences.py:65
 msgid "Object explorer tree state saving interval"
-msgstr "对象浏览器树状态保存间隔"
+msgstr "对象浏览器树状态的保存间隔"
 
 #: pgadmin/browser/register_browser_preferences.py:68
 msgid ""
 "Object explorer state saving interval in seconds. Use -1 to disable the "
 "tree saving mechanism."
-msgstr "对象浏览器状态保存间隔单位秒，使用-1禁用特性。"
+msgstr "对象浏览器状态保存间隔（单位：秒），填入-1以禁用该特性。"
 
 #: pgadmin/browser/register_browser_preferences.py:75
 msgid "Confirm on close or refresh?"
@@ -607,21 +612,21 @@ msgstr "在关闭或刷新时确认？"
 msgid ""
 "Confirm that closure or refresh of the browser or browser tab is intended"
 " before proceeding."
-msgstr ""
+msgstr "请确认是否关闭或刷新浏览器（标签页），再继续操作。"
 
 #: pgadmin/browser/register_browser_preferences.py:85
 msgid "Confirm before Close/Reset in object properties dialog?"
-msgstr "在对象属性对话框中关闭/重置之前确认？"
+msgstr "在对象属性对话框中关闭或重置之前确认？"
 
 #: pgadmin/browser/register_browser_preferences.py:89
 msgid ""
 "Confirm before closing or resetting the changes in the properties dialog "
 "for an object if the changes are not saved."
-msgstr "如果未保存更改，请先在属性对话框中确认对象的更改。"
+msgstr "若未保存对象属性对话框中的修改，关闭或重置修改前弹出确认提示。"
 
 #: pgadmin/browser/register_browser_preferences.py:96
 msgid "Auto-expand sole children"
-msgstr "自动展开唯一下级"
+msgstr "自动展开唯一子项"
 
 #: pgadmin/browser/register_browser_preferences.py:99
 msgid ""
