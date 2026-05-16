@@ -652,11 +652,11 @@ msgstr "最大作业历史记录行数"
 msgid ""
 "The maximum number of history rows to show on the Statistics tab for "
 "pgAgent jobs."
-msgstr ""
+msgstr "pgAgent 任务统计标签页可展示的最大历史记录行数"
 
 #: pgadmin/browser/register_browser_preferences.py:123
 msgid "Process details/logs retention days"
-msgstr "进程详情/日志保留天数"
+msgstr "进程详情或日志保留天数"
 
 #: pgadmin/browser/register_browser_preferences.py:125
 #: pgadmin/static/js/BrowserComponent.jsx:47
@@ -667,7 +667,7 @@ msgstr "进程"
 msgid ""
 "After this many days, the process info and logs will be automatically "
 "cleared."
-msgstr "这么多天后，进程信息和日志将被自动清除。"
+msgstr "在经过这么多天后，进程信息和日志将被自动清除。"
 
 #: pgadmin/browser/register_browser_preferences.py:133
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/MacrosDialog.jsx:55
@@ -704,11 +704,11 @@ msgstr "选项卡式面板向后"
 
 #: pgadmin/browser/register_browser_preferences.py:172
 msgid "Close tab panel"
-msgstr ""
+msgstr "关闭标签面板"
 
 #: pgadmin/browser/register_browser_preferences.py:187
 msgid "Tabbed panel forward"
-msgstr "选项卡式面板向前"
+msgstr "切换至下一面板标签"
 
 #: pgadmin/browser/register_browser_preferences.py:203
 msgid "File main menu"
