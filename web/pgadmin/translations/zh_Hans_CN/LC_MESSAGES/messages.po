@@ -5090,7 +5090,7 @@ msgstr "启用副本"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/rules/static/js/rule.ui.js:78
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:209
 msgid "Enable Always"
-msgstr "启用始终"
+msgstr "始终启用"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.ui.js:115
 msgid "FOR Events"
