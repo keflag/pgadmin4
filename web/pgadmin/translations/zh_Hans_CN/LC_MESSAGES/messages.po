@@ -2327,31 +2327,31 @@ msgstr "确定要禁用程序 %s 吗？"
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_schedules/__init__.py:47
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_schedules/static/js/dbms_schedule.js:21
 msgid "DBMS Schedules"
-msgstr ""
+msgstr "DBMS 调度计划"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_schedules/__init__.py:240
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_schedules/__init__.py:296
 msgid "Could not find the specified schedule."
-msgstr ""
+msgstr "无法找到指定的调度计划。"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_schedules/__init__.py:371
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/__init__.py:383
 msgid "Job schedule creation failed."
-msgstr "创建作业计划失败。"
+msgstr "创建调度计划失败。"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_schedules/static/js/dbms_schedule.js:37
 msgid "DBMS Schedule"
-msgstr ""
+msgstr "DBMS 调度计划"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_schedules/static/js/dbms_schedule.js:56
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_schedules/static/js/dbms_schedule.js:61
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_schedules/static/js/dbms_schedule.js:66
 msgid "DBMS Schedule..."
-msgstr ""
+msgstr "DBMS 调度计划……"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:30
 msgid "Repeat Interval"
-msgstr ""
+msgstr "重复间隔"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:32
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:35
@@ -2381,7 +2381,7 @@ msgstr "起始值"
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:121
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:127
 msgid "YYYY-MM-DD HH:mm:ss Z"
-msgstr "YYYY-MM-DD HH:mm:ss Z"
+msgstr "YYYY年MM月DD日 HH:mm:ss Z"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:48
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:125
@@ -2390,11 +2390,11 @@ msgstr "结束"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:62
 msgid "Frequency"
-msgstr ""
+msgstr "频率"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:65
 msgid "Select the frequency..."
-msgstr ""
+msgstr "请选择频率……"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:83
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:37
@@ -2404,7 +2404,7 @@ msgstr "日期"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:86
 msgid "YYYYMMDD"
-msgstr ""
+msgstr "YYYY年MM月DD日"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:97
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:170
@@ -2415,7 +2415,7 @@ msgstr "月份"
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:100
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/repeat.ui.js:110
 msgid "Select the months..."
-msgstr "选择月份..。"
+msgstr "请选择月份……"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:111
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/repeat.ui.js:91
@@ -2425,17 +2425,17 @@ msgstr "工作日"
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:114
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/repeat.ui.js:94
 msgid "Select the weekdays..."
-msgstr "选择工作日..."
+msgstr "请选择工作日..."
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:125
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/repeat.ui.js:99
 msgid "Month Days"
-msgstr "月天数"
+msgstr "月份天数"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:128
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/repeat.ui.js:102
 msgid "Select the month days..."
-msgstr "选择月份天数..。"
+msgstr "请选择月份天数……"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:139
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:180
@@ -2446,7 +2446,7 @@ msgstr "小时"
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:142
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/repeat.ui.js:60
 msgid "Select the hours..."
-msgstr "选择小时..."
+msgstr "请选择小时……"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:153
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:190
@@ -2457,7 +2457,7 @@ msgstr "分钟"
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:156
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/repeat.ui.js:68
 msgid "Select the minutes..."
-msgstr "选择分钟..."
+msgstr "请选择分钟……"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:173
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.ui.js:59
@@ -2511,7 +2511,7 @@ msgstr "存储过程"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:220
 msgid "Number of Arguments"
-msgstr ""
+msgstr "参数数量"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:224
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:225
@@ -2581,11 +2581,11 @@ msgstr "开始时间"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_jobscheduler.ui.js:40
 msgid "End Time"
-msgstr ""
+msgstr "结束时间"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_jobscheduler.ui.js:42
 msgid "Next Run"
-msgstr ""
+msgstr "下次执行"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/__init__.py:49
 msgid "Event Triggers"
@@ -2602,7 +2602,7 @@ msgstr "找不到事件触发器信息。"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/__init__.py:576
 msgid "The specified event trigger could not be found.\n"
-msgstr "找不到指定的事件触发器。 \n"
+msgstr "找不到指定的事件触发器。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/__init__.py:595
 msgid "Event trigger dropped"
@@ -2621,7 +2621,7 @@ msgstr "事件触发器"
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:59
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:65
 msgid "Event Trigger..."
-msgstr "事件触发器..."
+msgstr "事件触发器……"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.ui.js:58
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.ui.js:100
@@ -2730,7 +2730,7 @@ msgstr "SQL DROP"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.ui.js:94
 msgid "When TAG in"
-msgstr "当 TAG 在"
+msgstr "当标签在"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.ui.js:99
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.ui.js:213
@@ -2957,7 +2957,7 @@ msgstr "外部服务器"
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.js:62
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.js:67
 msgid "Foreign Server..."
-msgstr "外部服务器..."
+msgstr "外部服务器……"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.ui.js:53
 msgid "System foreign server?"
@@ -3104,7 +3104,7 @@ msgstr "用户映射"
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/static/js/user_mapping.js:62
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/static/js/user_mapping.js:67
 msgid "User Mapping..."
-msgstr "用户映射..."
+msgstr "用户映射……"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/static/js/user_mapping.ui.js:36
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/default/stats.sql:3
@@ -3129,7 +3129,7 @@ msgstr "外部数据封装器"
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:63
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:69
 msgid "Foreign Data Wrapper..."
-msgstr "外部数据封装器..."
+msgstr "外部数据封装器……"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.ui.js:55
 msgid "System foreign data wrapper?"
@@ -3172,7 +3172,7 @@ msgstr "语言"
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.js:62
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.js:68
 msgid "Language..."
-msgstr "语言..."
+msgstr "语言……"
 
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.ui.js:99
 msgid "System language?"
@@ -3180,7 +3180,7 @@ msgstr "系统语言？"
 
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.ui.js:105
 msgid "Trusted?"
-msgstr "是否可信?"
+msgstr "是否可信？"
 
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.ui.js:111
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.ui.js:115
@@ -3230,7 +3230,7 @@ msgstr "发布"
 #: pgadmin/browser/server_groups/servers/databases/publications/static/js/publication.js:63
 #: pgadmin/browser/server_groups/servers/databases/publications/static/js/publication.js:69
 msgid "Publication..."
-msgstr "发布..."
+msgstr "发布……"
 
 #: pgadmin/browser/server_groups/servers/databases/publications/static/js/publication.ui.js:21
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.ui.js:31
@@ -3285,25 +3285,25 @@ msgstr "TRUNCATE"
 
 #: pgadmin/browser/server_groups/servers/databases/publications/static/js/publication.ui.js:37
 msgid "Publish via root?"
-msgstr "使用root发布？"
+msgstr "使用 root 发布？"
 
 #: pgadmin/browser/server_groups/servers/databases/publications/static/js/publication.ui.js:66
 #: pgadmin/browser/server_groups/servers/static/js/variable.ui.js:89
 #, python-format
 msgid "%s <= Supported version >= %s"
-msgstr "%s <= 支持版本 >= %s"
+msgstr "%s ≤ 支持版本 ≥ %s"
 
 #: pgadmin/browser/server_groups/servers/databases/publications/static/js/publication.ui.js:68
 #: pgadmin/browser/server_groups/servers/static/js/variable.ui.js:91
 #, python-format
 msgid "Supported version >= %s"
-msgstr "支持版本 >= %s"
+msgstr "支持版本 ≥ %s"
 
 #: pgadmin/browser/server_groups/servers/databases/publications/static/js/publication.ui.js:70
 #: pgadmin/browser/server_groups/servers/static/js/variable.ui.js:93
 #, python-format
 msgid "Supported version <= %s"
-msgstr "支持版本 <= %s"
+msgstr "支持版本 ≤ %s"
 
 #: pgadmin/browser/server_groups/servers/databases/publications/static/js/publication.ui.js:94
 msgid "Table Name"
@@ -3361,7 +3361,8 @@ msgstr "仅有表？"
 
 #: pgadmin/browser/server_groups/servers/databases/publications/static/js/publication.ui.js:279
 msgid "If ONLY is specified before the table name, only that table is added to the publication. If ONLY is not specified, the table and all its descendant tables (if any) are added."
-msgstr "如果表名前设置了ONLY则只有这个表将被添加到发布。如果没有指定ONLY则改表以及他的子表（如果有的话）都将被添加"
+msgstr "若在表名前指定ONLY，则仅将该表添加至发布项；"
+"若未指定 ONLY，则会将该表及其所有下级子表（如有）一并添加。"
 
 #: pgadmin/browser/server_groups/servers/databases/publications/static/js/publication.ui.js:281
 msgid "Tables in Schema"
@@ -3395,11 +3396,11 @@ msgstr "\n"
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:648
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:951
 msgid "Could not find the schema in the database. It may have been removed by another user."
-msgstr "在数据库中找不到该架构。可能已被其他用户删除。"
+msgstr "在数据库中找不到架构，它可能已被其他用户删除。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:818
 msgid "The specified schema could not be found.\n"
-msgstr "找不到指定的架构\n"
+msgstr "找不到指定的架构。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:839
 msgid "Schema dropped"
@@ -3592,23 +3593,23 @@ msgstr "排序规则"
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:476
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:276
 msgid "Definition incomplete. Please provide Locale OR Copy Collation OR LC_TYPE/LC_COLLATE."
-msgstr "定义不完整。请提供区域设置或复制排序规则或LC_TYPE/LC_COLLATE."
+msgstr "定义不完整。请提供区域设置、复制排序规则，或 LC_TYPE / LC_COLLATE。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:568
 msgid "Collation dropped"
-msgstr "排序规则已经被删除"
+msgstr "排序规则已被删除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:690
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:693
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/__init__.py:658
 msgid "-- missing definition"
-msgstr "-- 定义丢失"
+msgstr "-- 缺失定义"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:53
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:59
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:65
 msgid "Collation..."
-msgstr "排序规则..."
+msgstr "排序规则……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:77
 msgid "Copy collation"
@@ -3624,17 +3625,17 @@ msgstr "提供者"
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:95
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:158
 msgid "icu"
-msgstr ""
+msgstr "icu"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:98
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:161
 msgid "libc"
-msgstr ""
+msgstr "libc"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:103
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:166
 msgid "builtin"
-msgstr ""
+msgstr "内置"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:128
 msgid "Locale"
@@ -3650,7 +3651,7 @@ msgstr "LC_TYPE"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:160
 msgid "Deterministic"
-msgstr ""
+msgstr "确定性"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:196
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/rules/__init__.py:45
@@ -3663,12 +3664,12 @@ msgid "System collation?"
 msgstr "系统排序规则？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:266
-msgid "Definition incomplete. Please provide LC_TYPE."
-msgstr ""
+msgid "Definition bwz. Please provide LC_TYPE."
+msgstr "定义不完整，请提供 LC_TYPE。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:271
 msgid "Definition incomplete. Please provide LC_COLLATE."
-msgstr ""
+msgstr "定义不完整，请提供 LC_COLLATE"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/__init__.py:53
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:27
@@ -3681,7 +3682,7 @@ msgid "\n"
 "It may have been removed by another user or moved to another schema.\n"
 msgstr "\n"
 "无法在数据库中找到该域。\n"
-"它可能已被另一个用户删除或移动到另一个架构\n"
+"它可能已经被另一个用户删除或移动到另一个架构\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/__init__.py:683
 msgid "Domain dropped"
@@ -3701,7 +3702,7 @@ msgstr "域约束被删除"
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/static/js/domain_constraints.js:60
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/static/js/domain_constraints.js:65
 msgid "Domain Constraint..."
-msgstr "域约束..."
+msgstr "域约束……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/static/js/domain_constraints.ui.js:39
 msgid "System domain constraint?"
@@ -3730,7 +3731,7 @@ msgstr "域"
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:62
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:68
 msgid "Domain..."
-msgstr "域..."
+msgstr "域……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.ui.js:120
 msgid "System domain?"
@@ -3801,7 +3802,7 @@ msgstr "外部表已经被删除"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1594
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:1704
 msgid "-- Please create column(s) first..."
-msgstr "--请先创建列..."
+msgstr "-- 请先创建列……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:1948
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1262
@@ -3822,7 +3823,7 @@ msgstr "触发器已启用"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:96
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:101
 msgid "Column..."
-msgstr "列..."
+msgstr "列……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:45
 msgid "Foreign Table"
@@ -3832,7 +3833,7 @@ msgstr "外部表"
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:68
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:74
 msgid "Foreign Table..."
-msgstr "外部表..."
+msgstr "外部表……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:79
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:84
@@ -3863,7 +3864,7 @@ msgstr "清空重置标识符"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:104
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:112
 msgid "Trigger(s)"
-msgstr "触发器"
+msgstr "（多个）触发器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:95
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:77
