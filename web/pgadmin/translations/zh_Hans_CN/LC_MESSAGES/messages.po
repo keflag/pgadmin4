@@ -5387,7 +5387,7 @@ msgstr "可延迟？"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/unique_constraint.ui.js:236
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:297
 msgid "Deferred?"
-msgstr "延迟?"
+msgstr "延迟？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.ui.js:347
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:600
@@ -5397,7 +5397,7 @@ msgstr "约束"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.ui.js:351
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:609
 msgid "Columns/Expressions"
-msgstr "列/表达式"
+msgstr "列或表达式"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.ui.js:407
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/primary_key.ui.js:143
@@ -5408,12 +5408,12 @@ msgstr "包含列"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.ui.js:444
 msgid "Please specify columns for exclusion constraint."
-msgstr "请指定用于排除约束的列."
+msgstr "请指定用于排除约束的列。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.ui.js:450
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.ui.js:423
 msgid "Please specify covering index name."
-msgstr "请指定覆盖索引名称."
+msgstr "请指定覆盖索引名称。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/__init__.py:28
 msgid "Could not find the foreign key."
@@ -5425,7 +5425,7 @@ msgstr "外键"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/__init__.py:770
 msgid "The specified foreign key could not be found.\n"
-msgstr "找不到指定的外键。 \n"
+msgstr "找不到指定的外键。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/__init__.py:787
 msgid "Foreign key dropped."
@@ -5437,7 +5437,7 @@ msgstr "外键已更新。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/utils.py:314
 msgid "Could not find the foreign key constraint in the table."
-msgstr "在表中找不到外键约束."
+msgstr "在表中找不到外键约束。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:24
 msgid "Foreign key"
@@ -5445,7 +5445,7 @@ msgstr "外键"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:45
 msgid "Foreign key..."
-msgstr "外键..."
+msgstr "外键……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:50
 msgid "Validate foreign key"
@@ -5492,7 +5492,7 @@ msgstr "匹配类型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.ui.js:245
 msgid "Validated?"
-msgstr "通过验证?"
+msgstr "通过验证？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.ui.js:263
 msgid "Auto FK index?"
@@ -5512,7 +5512,7 @@ msgstr "在删除时"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.ui.js:417
 msgid "Please specify columns for Foreign key."
-msgstr "请为外键指定列."
+msgstr "请为外键指定列。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:56
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:204
@@ -5531,21 +5531,21 @@ msgstr "唯一约束"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:541
 #, python-brace-format
 msgid "Could not find at least one required parameter ({})."
-msgstr "找不到至少一个必需的参数 （+）。"
+msgstr "找不到至少一个必需的参数（{}）。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:758
 msgid "The specified constraint could not be found.\n"
-msgstr "找不到指定的约束.\n"
+msgstr "找不到指定的约束。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:776
 #, python-brace-format
 msgid "{0} dropped."
-msgstr "{0} 已删除."
+msgstr "{0} 已删除。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:1019
 #, python-brace-format
 msgid "Could not find the {} in the table."
-msgstr "在表中找不到 {} ."
+msgstr "在表中找不到 {}。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:1020
 msgid "primary key"
@@ -5598,7 +5598,7 @@ msgstr "请为 %s 指定列。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/unique_constraint.ui.js:256
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:556
 msgid "NULLs not distinct?"
-msgstr "NULL值未去重？"
+msgstr "NULL 值未去重？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/__init__.py:59
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:27
@@ -5616,7 +5616,7 @@ msgstr "删除索引"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/utils.py:259
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/utils.py:328
 msgid "Could not find the index in the table."
-msgstr "在表中找不到索引."
+msgstr "在表中找不到索引。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:31
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:50
@@ -5642,7 +5642,7 @@ msgstr "大小"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:79
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:84
 msgid "Index..."
-msgstr "索引..."
+msgstr "索引……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:189
 msgid "Sort order"
@@ -5659,7 +5659,7 @@ msgstr "Gin挂起列表限制"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:280
 msgid "This value is specified in kilobytes."
-msgstr "此值以 KB 为单位。"
+msgstr "这个值以 KB 为单位。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:282
 msgid "Pages per range"
@@ -5703,7 +5703,7 @@ msgstr "自动汇总？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:410
 msgid "Select the column(s)"
-msgstr "选择列"
+msgstr "选择（多个）列"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:451
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.ui.js:234
@@ -5724,7 +5724,7 @@ msgstr "警告"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:491
 msgid "Changing access method will clear columns collection. Do you want to continue?"
-msgstr "修改访问方式将清空列集合确定要继续吗？"
+msgstr "修改访问方式将清空列集合，确定要继续吗？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:526
 msgid "Only Table?"
