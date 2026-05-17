@@ -1,7 +1,7 @@
 # Chinese (Simplified, China) translations for pgAdmin 4.
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the  project.
-# FIRST AUTHOR <mysticboy@live.com>, 2019 - 2026.4
+# FIRST AUTHOR <mysticboy@live.com>, 2019 - 2023
 # LATEST AUTHOR [Xue Mingke <xuemingke2009@163.com>] 2026.5
 #
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version:  PgAdmin4\n"
 "Report-Msgid-Bugs-To: xuemingke2009@163.com\n"
 "POT-Creation-Date: 2026-05-02 11:11+0530\n"
-"PO-Revision-Date: 2026-05-14 13:02+0800\n"
+"PO-Revision-Date: 2026-05-17 09:03+0800\n"
 "Last-Translator: Xue Mingke <xuemingke2009@163.com>\n"
 "Language: zh_Hans_CN\n"
 "Language-Team: @keflag on Github.\n本人是高中生，业余时间维护翻译，有问题请礼貌的发邮件到 <xuemingke2009@163.com>\n"
