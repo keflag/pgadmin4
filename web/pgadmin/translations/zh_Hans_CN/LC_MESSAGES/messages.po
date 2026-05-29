@@ -5224,7 +5224,7 @@ msgstr "找不到表中的检查约束。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:637
 msgid "The specified check constraint could not be found.\n"
-msgstr "找不到指定的检查约束。 \n"
+msgstr "找不到指定的检查约束。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:653
 msgid "Check constraint dropped."
@@ -5241,7 +5241,7 @@ msgstr "检查约束已更新。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/static/js/check_constraint.js:44
 msgid "Check..."
-msgstr "检查..."
+msgstr "检查……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/static/js/check_constraint.js:49
 msgid "Validate check constraint"
@@ -5253,22 +5253,22 @@ msgstr "系统检查约束？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/static/js/check_constraint.ui.js:86
 msgid "Don't validate?"
-msgstr "不验证么?"
+msgstr "不验证?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:56
 msgid "Exclusion Constraints"
-msgstr "排他约束"
+msgstr "排除约束"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:278
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/utils.py:224
 msgid "Could not find the exclusion constraint in the table."
-msgstr "在表中找不到排他约束."
+msgstr "在表中找不到排除约束。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:383
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:802
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:856
 msgid "Could not find the exclusion constraint."
-msgstr "找不到排他约束。"
+msgstr "找不到排除约束。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:536
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/__init__.py:523
@@ -5282,7 +5282,7 @@ msgstr "找不到指定的排除约束。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:724
 msgid "Exclusion constraint dropped."
-msgstr "排除约束被删除."
+msgstr "排除约束已被删除。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:23
 msgid "Exclusion constraint"
@@ -5310,17 +5310,17 @@ msgstr "索引大小"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:47
 msgid "Exclusion constraint..."
-msgstr "排除约束..."
+msgstr "排除约束……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.ui.js:80
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:55
 msgid "Is expression"
-msgstr "是否表达式"
+msgstr "是否为表达式"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.ui.js:155
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:150
 msgid "Col/Exp"
-msgstr "列/表达式"
+msgstr "列或表达式"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.ui.js:158
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:153
@@ -5339,7 +5339,7 @@ msgstr "顺序"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.ui.js:176
 msgid "NULLs order"
-msgstr "NULL 值排序"
+msgstr "（多个）NULL 值排序"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.ui.js:266
 msgid "System exclusion constraint?"
@@ -5502,7 +5502,7 @@ msgstr "通过验证？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.ui.js:263
 msgid "Auto FK index?"
-msgstr "自动 FK 索引吗？"
+msgstr "自动外键索引？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.ui.js:301
 msgid "Covering index"
@@ -5537,7 +5537,7 @@ msgstr "唯一约束"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:541
 #, python-brace-format
 msgid "Could not find at least one required parameter ({})."
-msgstr "找不到至少一个必需的参数（{}）。"
+msgstr "至少一个必需的参数（{}）无法被找到。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:758
 msgid "The specified constraint could not be found.\n"
@@ -5604,7 +5604,7 @@ msgstr "请为 %s 指定列。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/unique_constraint.ui.js:256
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:556
 msgid "NULLs not distinct?"
-msgstr "NULL 值未去重？"
+msgstr "NULL（多个） 值未去重？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/__init__.py:59
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:27
@@ -5661,11 +5661,11 @@ msgstr "空值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:272
 msgid "Gin pending list limit"
-msgstr "Gin挂起列表限制"
+msgstr "Gin 待处理列表大小限制"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:280
 msgid "This value is specified in kilobytes."
-msgstr "这个值以 KB 为单位。"
+msgstr "这个值以 Kb 为单位。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:282
 msgid "Pages per range"
@@ -5673,7 +5673,7 @@ msgstr "每个范围的页数"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:289
 msgid "Number of table blocks that make up one block range for each entry of a BRIN index."
-msgstr "构成 BRIN 索引每个条目的一个块范围的表块数。"
+msgstr "每个 BRIN 索引项所对应的一个块范围的数据块数量。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:291
 msgid "Buffering"
@@ -5750,7 +5750,7 @@ msgstr "集群?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:582
 msgid "Valid?"
-msgstr "有效么?"
+msgstr "有效?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:586
 msgid "Primary?"
