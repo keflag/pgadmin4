@@ -3892,13 +3892,13 @@ msgid "Disable All"
 msgstr "全部禁用"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:157
-msgid "Truncate Foreign Table"
-msgstr ""
+msgid "truncate Foreign Table"
+msgstr "截断外部表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:158
 #, python-format
 msgid "Are you sure you want to truncate foreign table <b>%s</b>?"
-msgstr ""
+msgstr "确定要截断外部表 <b>%s<M/b> 吗？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.ui.js:116
 msgid "System foreign table?"
@@ -3918,7 +3918,7 @@ msgstr "外部服务器不能为空。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.ui.js:412
 msgid "Inherited from"
-msgstr ""
+msgstr "继承自"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.ui.js:458
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:384
@@ -3986,12 +3986,12 @@ msgstr "变量"
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.ui.js:656
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/static/js/check_constraint.ui.js:72
 msgid "No inherit?"
-msgstr "是否没有继承权？"
+msgstr "没有继承权？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:55
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:26
 msgid "FTS Configurations"
-msgstr "FTS配置"
+msgstr "FTS 配置"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:336
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:725
@@ -4004,7 +4004,7 @@ msgstr "在数据库节点中，找不到 FTS 配置节点。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:450
 msgid "Provide at least copy config or parser."
-msgstr "至少提供复制配置或解析器。"
+msgstr "至少提供配置文件或解析器的副本。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:518
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:544
@@ -4013,31 +4013,32 @@ msgstr "找不到要更新的 FTS 配置节点。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:600
 msgid "The specified FTS configuration could not be found.\n"
-msgstr "找不到指定的FTS配置。\n"
+msgstr "找不到指定的 FTS 配置。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:624
 msgid "FTS Configuration dropped"
-msgstr "FTS 配置删除"
+msgstr "FTS 配置已删除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:945
 #, python-brace-format
 msgid "Could not generate reverse-engineered query for the FTS Configuration.\n"
 "{0}"
-msgstr ""
+msgstr "无法生成 FTS 配置的逆向工程查询。\n"
+"{0}"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:953
 msgid "Could not generate reverse-engineered query for FTS Configuration node."
-msgstr ""
+msgstr "无法生成 FTS 配置节点的逆向工程查询。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:41
 msgid "FTS Configuration"
-msgstr "FTS配置"
+msgstr "FTS 配置"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:57
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:63
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:70
 msgid "FTS Configuration..."
-msgstr "FTS配置..."
+msgstr "FTS 配置……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.ui.js:39
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.ui.js:163
@@ -4066,30 +4067,30 @@ msgstr "复制配置"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.ui.js:184
 msgid "Select parser or configuration to copy."
-msgstr "选择要复制的分析器或配置。"
+msgstr "选择要复制的解析器或配置。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/__init__.py:53
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/static/js/fts_dictionary.js:27
 msgid "FTS Dictionaries"
-msgstr "FTS 词典"
+msgstr "FTS 字典"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/__init__.py:346
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/__init__.py:724
 msgid "Could not find the FTS Dictionary node."
-msgstr "找不到 FTS 字典点节点。"
+msgstr "无法找到 FTS 字典节点。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/__init__.py:401
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/__init__.py:835
 msgid "Could not find the FTS Dictionary node in the database node."
-msgstr "在数据库节点中找不到 FTS 配置节点。"
+msgstr "在数据库节点中找不到 FTS 字典节点。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/__init__.py:535
 msgid "Could not find the FTS Dictionary node to update."
-msgstr "找不到要更新的 FTS 字典节点。"
+msgstr "无法找到要更新的 FTS 字典节点。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/__init__.py:591
 msgid "The specified FTS dictionary could not be found.\n"
-msgstr "找不到指定的 FTS 字典。\n"
+msgstr "无法找到指定的 FTS 字典。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/__init__.py:615
 msgid "FTS Dictionary dropped"
@@ -4103,7 +4104,7 @@ msgstr "FTS 词典"
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/static/js/fts_dictionary.js:63
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/static/js/fts_dictionary.js:69
 msgid "FTS Dictionary..."
-msgstr "FTS 字典..."
+msgstr "FTS 字典……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/static/js/fts_dictionary.ui.js:56
 msgid "System FTS dictionary?"
@@ -4126,7 +4127,7 @@ msgstr "找不到 FTS 解析器节点。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:360
 msgid "Could not find the FTS Parser node in the database node."
-msgstr "在数据库节点中找不到 FTS 解析器节点。"
+msgstr "无法在数据库节点中找到 FTS 解析器节点。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:482
 msgid "Could not find the FTS Parser node to update."
@@ -4138,27 +4139,28 @@ msgstr "找不到指定的 FTS 分析器。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:561
 msgid "FTS Parser dropped"
-msgstr "FTS 解析器被删除"
+msgstr "FTS 解析器已删除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:886
 #, python-brace-format
 msgid "Could not generate reverse-engineered query for the FTS Parser.\n"
 "{0}"
-msgstr ""
+msgstr "无法生成 FTS 解析器的逆向工程查询。\n"
+"{0}"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:894
 msgid "Could not generate reverse-engineered query for FTS Parser node."
-msgstr ""
+msgstr "无法生成 FTS 解析器节点的逆向工程查询。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:39
 msgid "FTS Parser"
-msgstr "FTS 分析器"
+msgstr "FTS 解析器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:54
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:59
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:65
 msgid "FTS Parser..."
-msgstr "FTS 分析器..."
+msgstr "FTS 解析器……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.ui.js:52
 msgid "System FTS parser?"
@@ -4178,7 +4180,7 @@ msgstr "结束函数"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.ui.js:107
 msgid "Lextypes function"
-msgstr "Lextypes 函数"
+msgstr "词类函数"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.ui.js:123
 msgid "Headline function"
@@ -4197,11 +4199,12 @@ msgstr "FTS 模板已删除"
 #, python-brace-format
 msgid "Could not generate reverse-engineered query for the FTS Template.\n"
 "{0}"
-msgstr ""
+msgstr "无法生成 FTS 模板的逆向工程查询。\n"
+"{0}"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_templates/__init__.py:765
 msgid "Could not generate reverse-engineered query for FTS Template node."
-msgstr ""
+msgstr "无法生成 FTS 模板节点的逆向工程查询。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_templates/static/js/fts_template.js:39
 msgid "FTS Template"
@@ -4211,7 +4214,7 @@ msgstr "FTS 模板"
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_templates/static/js/fts_template.js:59
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_templates/static/js/fts_template.js:65
 msgid "FTS Template..."
-msgstr "FTS 模板..."
+msgstr "FTS 模板……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_templates/static/js/fts_template.ui.js:50
 msgid "System FTS template?"
@@ -4223,7 +4226,7 @@ msgstr "初始化函数"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_templates/static/js/fts_template.ui.js:75
 msgid "Lexize function"
-msgstr "Lexize 函数"
+msgstr "词法函数"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/__init__.py:64
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:28
@@ -4240,26 +4243,26 @@ msgstr "找不到指定的 %s。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/__init__.py:469
 msgid "Could not find the function node in the database."
-msgstr "在数据库中找不到该函数节点。"
+msgstr "无法在数据库中找到该函数节点。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/__init__.py:672
 msgid "The specified function could not be found.\n"
-msgstr "找不到指定的函数。\n"
+msgstr "无法找到指定的函数。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/__init__.py:690
 msgid "Function dropped."
-msgstr "函数已经删除。"
+msgstr "函数已删除。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/__init__.py:1157
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/__init__.py:1357
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbfuncs/__init__.py:339
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbfuncs/__init__.py:516
 msgid "Could not find the function in the database."
-msgstr "在数据库中找不到该函数。"
+msgstr "无法在数据库中找到该函数。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/__init__.py:1531
 msgid "The specified function could not be found."
-msgstr "找不到指定的函数。"
+msgstr "无法找到指定的函数。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/__init__.py:1819
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/procedure.js:27
@@ -4276,7 +4279,7 @@ msgstr "触发器函数"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:66
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:72
 msgid "Function..."
-msgstr "函数..."
+msgstr "函数……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:48
 #: pgadmin/dashboard/static/js/Dashboard.jsx:739
@@ -4289,11 +4292,11 @@ msgstr "参数名称"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:216
 msgid "System function?"
-msgstr "系统函数?"
+msgstr "系统函数？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:220
 msgid "System procedure?"
-msgstr "系统存储过程?"
+msgstr "系统存储过程？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:229
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:117
@@ -4309,7 +4312,7 @@ msgstr "签名参数"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:238
 msgid "Custom return type?"
-msgstr ""
+msgstr "自定义返回类型？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:242
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:265
@@ -4323,13 +4326,13 @@ msgstr "返回类型"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:512
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.ui.js:112
 msgid "Depends on extensions"
-msgstr ""
+msgstr "根据扩展项"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:288
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:520
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.ui.js:120
 msgid "Select the Depends on extensions..."
-msgstr ""
+msgstr "根据扩展项进行选择……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:293
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:166
@@ -4344,12 +4347,12 @@ msgstr "链接符号"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:326
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:180
 msgid "Volatility"
-msgstr "波动性"
+msgstr "易变性"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:336
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:189
 msgid "Returns a set?"
-msgstr "是否返回设置？"
+msgstr "是否返回集合？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:340
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:193
@@ -4359,7 +4362,7 @@ msgstr "是否严格？"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:356
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:196
 msgid "Security of definer?"
-msgstr "为否为安全的定义器？"
+msgstr "是否为安全的定义器？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:362
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:200
@@ -4384,7 +4387,7 @@ msgstr "预估行"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:393
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:219
 msgid "Leak proof?"
-msgstr "是否防漏？"
+msgstr "防止泄露？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:398
 msgid "Support function"
@@ -4411,13 +4414,13 @@ msgstr "对象文件不能为空。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:459
 msgid "Link Symbol cannot be empty."
-msgstr "链接符不能为空。"
+msgstr "链接符号不能为空。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/procedure.js:61
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/procedure.js:67
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/procedure.js:73
 msgid "Procedure..."
-msgstr "存储过程..."
+msgstr "存储过程……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:28
 msgid "Trigger functions"
@@ -4427,7 +4430,7 @@ msgstr "触发器函数"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:73
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:79
 msgid "Trigger function..."
-msgstr "触发器函数..."
+msgstr "触发器函数……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:110
 msgid "System trigger function?"
@@ -4439,7 +4442,7 @@ msgstr "触发器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:138
 msgid "event_trigger"
-msgstr "event_trigger"
+msgstr "事件触发器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/templates/functions/pg/sql/11_plus/coll_stats.sql:3
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/templates/functions/pg/sql/default/coll_stats.sql:3
@@ -4484,7 +4487,7 @@ msgstr "调用数量"
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbfuncs/templates/edbprocs/ppas/default/stats.sql:3
 #: pgadmin/static/js/Explain/ExplainStatistics.jsx:79
 msgid "Total time"
-msgstr "总共时间"
+msgstr "耗时"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/templates/functions/pg/sql/11_plus/coll_stats.sql:5
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/templates/functions/pg/sql/default/coll_stats.sql:5
@@ -4506,7 +4509,7 @@ msgstr "总共时间"
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbfuncs/templates/edbfuncs/ppas/default/stats.sql:4
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbfuncs/templates/edbprocs/ppas/default/stats.sql:4
 msgid "Self time"
-msgstr "自己时间"
+msgstr "自身耗时"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/operators/__init__.py:51
 #: pgadmin/browser/server_groups/servers/databases/schemas/operators/static/js/operator.js:22
@@ -4524,11 +4527,11 @@ msgstr "系统操作符？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/operators/static/js/operator.ui.js:68
 msgid "Left type"
-msgstr "左边类型"
+msgstr "左侧类型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/operators/static/js/operator.ui.js:73
 msgid "Right type"
-msgstr "右边类型"
+msgstr "右侧类型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/operators/static/js/operator.ui.js:78
 msgid "Result type"
@@ -4568,11 +4571,11 @@ msgstr "转换器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/operators/static/js/operator.ui.js:108
 msgid "Negator"
-msgstr "否定"
+msgstr "否定器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/operators/static/js/operator.ui.js:113
 msgid "Supports hash"
-msgstr "支持Hash"
+msgstr "支持 Hash"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/operators/static/js/operator.ui.js:118
 msgid "Supports merge"
@@ -4585,14 +4588,14 @@ msgstr "包"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/__init__.py:500
 msgid "Package dropped"
-msgstr "已删除包"
+msgstr "包已被删除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbfuncs/__init__.py:108
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbfuncs/__init__.py:676
 #: pgadmin/tools/search_objects/utils.py:80
 #, python-brace-format
 msgid "Package {0}"
-msgstr "包{0}"
+msgstr "包 {0}"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/edbfuncs/__init__.py:288
 msgid "Could not find the function"
@@ -4617,7 +4620,7 @@ msgstr "包"
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.js:61
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.js:68
 msgid "Package..."
-msgstr "包..."
+msgstr "包……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.js:56
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.js:63
@@ -4641,7 +4644,7 @@ msgstr "此选项仅在 EPAS 服务器上可用。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:91
 msgid "System package?"
-msgstr "是系统包吗？"
+msgstr "系统包？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:100
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:165
@@ -4651,13 +4654,13 @@ msgstr "标题"
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:107
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:126
 msgid "Updating the package header definition may remove its existing body."
-msgstr "更新包头定义可能会删除其现有正文。"
+msgstr "更新包头部的定义可能会删除其现有的正文。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:109
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:128
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.ui.js:181
 msgid "Do you want to continue?"
-msgstr "您想要继续吗?"
+msgstr "确定要继续吗?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:119
 msgid "Body"
@@ -4686,7 +4689,7 @@ msgstr "序列"
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.js:64
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.js:70
 msgid "Sequence..."
-msgstr "序列..."
+msgstr "序列……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.ui.js:41
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.ui.js:61
@@ -4709,9 +4712,11 @@ msgstr "系统序列？"
 msgid "Current value"
 msgstr "当前值"
 
+# IN DOUBT: nextval是什么意思，回头核实一下。
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.ui.js:139
 msgid "Sets the sequence object's current value. The next nextval will return exactly the specified value, and sequence advancement commences with the following nextval."
-msgstr ""
+msgstr "设置序列对象的当前值。"
+"下一个 nextval 将恰好返回指定的值，并且序列从下一个 nextval 开始前进。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.ui.js:141
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:579
@@ -4731,7 +4736,7 @@ msgstr "最大值"
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.ui.js:153
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:599
 msgid "Cache"
-msgstr "高速缓存"
+msgstr "缓存"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.ui.js:157
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:604
@@ -4750,7 +4755,8 @@ msgstr "所有者"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.ui.js:169
 msgid "The OWNED BY option causes the sequence to be associated with a specific table column, such that if that column (or its whole table) is dropped, the sequence will be automatically dropped as well. The specified table must have the same owner and be in the same schema as the sequence."
-msgstr "所有者选项会使其分配到指定的数据表的列之上，当列或者表被删除时序列也将自动删除，指定的表必须和序列为同一所有者且在同一个架构中"
+msgstr "所有者选项使序列与特定的表列相关联，这样如果该列（或其整个表）被删除，该序列也会自动删除。"
+"指定的表必须与序列具有相同的所有者，并且位于相同的模式中。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.ui.js:257
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:736
@@ -4791,11 +4797,11 @@ msgstr "系统目录？"
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:59
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:65
 msgid "Schema..."
-msgstr "架构..."
+msgstr "架构……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:70
 msgid "ERD For Schema"
-msgstr ""
+msgstr "ERD 模式图"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.ui.js:52
 msgid "System schema?"
@@ -4836,7 +4842,7 @@ msgstr "同义词"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/__init__.py:549
 msgid "Synonym dropped"
-msgstr "同义词被删除"
+msgstr "同义词已删除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:38
 msgid "Synonym"
@@ -4846,7 +4852,7 @@ msgstr "同义词"
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:60
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:67
 msgid "Synonym..."
-msgstr "同义词..."
+msgstr "同义词……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.ui.js:59
 msgid "Public Synonym"
@@ -4871,7 +4877,7 @@ msgstr "系统同义词？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:392
 msgid "Could not find the table."
-msgstr "找不到表."
+msgstr "找不到表。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1154
 msgid "\n"
@@ -4879,12 +4885,12 @@ msgstr "\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1170
 msgid "Table dropped"
-msgstr "表被删除"
+msgstr "表已被删除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1687
 #, python-brace-format
 msgid "Table rows counted: {}"
-msgstr "已统计表行数： {}"
+msgstr "已统计表行数：{} 行。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/utils.py:1117
 msgid "Table statistics have been reset"
@@ -4893,7 +4899,7 @@ msgstr "表统计信息已重置"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/utils.py:1443
 #, python-brace-format
 msgid "-- definition incomplete for {0}"
-msgstr "--{0} 的定义不完整"
+msgstr "-- {0} 的定义不完整"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/utils.py:2001
 msgid "Table truncated"
@@ -4903,17 +4909,17 @@ msgstr "表被截断"
 #, python-brace-format
 msgid "The table is currently locked and the operation cannot be completed. Please try again later. \r\n"
 "Blocking Process ID : {0} Application Name : {1}"
-msgstr "表已锁定，操作无法完成，请稍后重试\r\n"
-"锁定进程ID:{0} 应用名称：{1}"
+msgstr "该表当前已被锁定，无法完成操作，请稍后重试。\r\n"
+"锁定进程 ID：{0}  应用名称：{1}"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/__init__.py:520
 msgid "Column is dropped"
-msgstr "列被删除"
+msgstr "列已被删除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:178
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:616
 msgid "Primary key?"
-msgstr "主键?"
+msgstr "主键？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:283
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:300
@@ -4922,58 +4928,58 @@ msgstr "继承自表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:294
 msgid "Inherited from type"
-msgstr ""
+msgstr "继承自类型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:306
 msgid "Original Default"
-msgstr ""
+msgstr "初始值"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:312
 msgid "Original NOT NULL"
-msgstr ""
+msgstr "初始不可以为空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:316
 msgid "Geometry Type"
-msgstr ""
+msgstr "几何类型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:334
 msgid "SRID"
-msgstr ""
+msgstr "SRID"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:352
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:895
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:1062
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:1418
 msgid "Length/Precision"
-msgstr "长度/精度"
+msgstr "长度或精度"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:416
 msgid "Compression"
-msgstr ""
+msgstr "压缩率"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:418
 msgid "Select compression"
-msgstr ""
+msgstr "选择压缩率"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:464
 msgid "PLAIN"
-msgstr ""
+msgstr "PLAIN"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:466
 msgid "MAIN"
-msgstr ""
+msgstr "MAIN"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:468
 msgid "EXTERNAL"
-msgstr ""
+msgstr "EXTERNAL"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:470
 msgid "EXTENDED"
-msgstr ""
+msgstr "EXTENDED"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:475
 msgid "DEFAULT"
-msgstr ""
+msgstr "DEFAULT"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:539
 msgid "IDENTITY"
@@ -4985,11 +4991,11 @@ msgstr "身份标识"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:569
 msgid "Select identity"
-msgstr "选择表示"
+msgstr "选择身份标识"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:572
 msgid "ALWAYS"
-msgstr "ALWAYS"
+msgstr "总是"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:573
 msgid "BY DEFAULT"
@@ -5008,15 +5014,15 @@ msgstr "继承？"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:568
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:704
 msgid "Inherited from table(s)"
-msgstr "继承自表"
+msgstr "继承自（多个）表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:674
 msgid "Length/Precision should not be less than: "
-msgstr "长度/精度不应小于: "
+msgstr "长度或精度不应小于: "
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:676
 msgid "Length/Precision should not be greater than: "
-msgstr "长度/精度不应大于: "
+msgstr "长度或精度不应大于: "
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:687
 msgid "Scale should not be less than: "
@@ -5053,12 +5059,12 @@ msgstr "复合触发器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/__init__.py:610
 msgid "Compound Trigger is dropped"
-msgstr "复合触发器被移除"
+msgstr "复合触发器已删除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/utils.py:111
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/utils.py:169
 msgid "Could not find the compound trigger in the table."
-msgstr "表中找不到复合触发器。"
+msgstr "无法在表中找到复合触发器。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:40
 msgid "Compound Trigger"
@@ -5070,7 +5076,7 @@ msgstr "复合触发器"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:78
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:95
 msgid "Compound Trigger..."
-msgstr "复合触发器..."
+msgstr "复合触发器……"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:85
 msgid "Enable compound trigger"
@@ -5209,7 +5215,7 @@ msgstr "检查约束"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:309
 msgid "Could not find the check constraint."
-msgstr "找不到检查约束。"
+msgstr "无法找到检查约束。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:441
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/utils.py:170
